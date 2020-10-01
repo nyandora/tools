@@ -14,4 +14,4 @@ document.addEventListener("keydown", e => {
     e.preventDefault();
   }
   return false;
-})
+});
