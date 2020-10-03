@@ -2,7 +2,9 @@ document.addEventListener("keydown", e => {
   if ((e.ctrlKey
       && (e.keyCode === 83 // Ctrl + S
         || e.keyCode === 70 // Ctrl + F
+        || e.keyCode === 78 // Ctrl + N
         || e.keyCode === 79 // Ctrl + O
+        || e.keyCode === 84 // Ctrl + T
         || (e.shiftKey && e.keyCode === 79) // Ctrl + Shift + o
         || e.keyCode === 33 // PgUp
         || e.keyCode === 34 // PgDn
