@@ -9,6 +9,7 @@ document.addEventListener("keydown", e => {
         || e.keyCode === 33 // PgUp
         || e.keyCode === 34 // PgDn
     ))
+    || e.keyCode === 93 // コンテキストメニューボタン
     || e.keyCode === 114 // F3
     || e.keyCode === 115 // F4
     || e.keyCode === 116 // F5
